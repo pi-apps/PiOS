@@ -24,6 +24,6 @@ To add your project to the list follow the instructions [here](/README.md)
 | **Category**         | **Title**     | **Description**                                            | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** | **Link to Testnet App** | **Link to Mainnet App** |
 |----------------------|---------------|-------------------------------------------------------|------------------------------------|-------------------|---------------------------|-------------------------|-------------------------|
 | See potentials above | Example | Write a description here about what the code achieves | Ruby, Rust, React, JS, etc.        | TBD             |                           | (When available)        | (When available)        |
-| Consumer Utility | Pi Demo App | This application showcases the authentication and payment functionalities of the Pi SDK. | React/Typescript, NodeJS/Express, MongoDB | [Demo App Repo](https://github.com/pi-apps/demo) | N/A | pi://demo.pi | N/A |
+| Consumer Utility | Pi Demo App | This application showcases the authentication and payment functionalities of the Pi SDK. | Typescript/React, Node.js/Express, MongoDB | [Demo App Repo](https://github.com/pi-apps/demo) | N/A | pi://demo.pi | N/A |
 
 
