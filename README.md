@@ -38,4 +38,4 @@ In the future should you wish to remove your application from the Pi Open Source
 
 ### 3. Add License to your Applications Code Repository and code away
 To add the license to your code follow the below steps:
-- INSTRUCTIONS COMING SOON
+- Edit the first line of the LICENSE file in your repo
