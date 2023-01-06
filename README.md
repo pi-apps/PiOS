@@ -30,13 +30,13 @@ Information NOT necessary for the PR to be approved:
 ### 2. Pi Core Team will approve PR and create repo
 We will approve your PR, create a repository under github.com/pi-apps and invite you as the admin of that repository. 
 
-The github user that submits the Pull Request to the PiOS Application Library table will be given admin privileges to this newly created repository. This will grant you full admin access to the repository to add additional team members, and perform any sensitive or destructive actions like managing security, moving or deleting the repository.  
+The github user that submits the Pull Request to the PiOS Application Library table will be given admin privileges to this newly created repository. This will grant you full admin access to the repository to add additional team members, and perform any sensitive or destructive actions like managing security, moving or even deleting the repository.  
 
-Other Pi community developers can also contribute to the maintenance and improvement of the application and submit Pull Requests directly to the project. Even though the Pi Core Team is providing you access to the github.com/pi-apps namespace for convenience, it will not maintain your repository or application code. You are fully responsible for your code.
+Other Pi community developers can also contribute to the maintenance and improvement of the application and submit Pull Requests directly to the project. As the admin you will be responsible for responding to those PRs or you can delegate this responsibility to your team members. Even though the Pi Core Team is providing you access to the github.com/pi-apps namespace for convenience, it will not maintain your repository or application code. You are fully responsible for your code.
 
 In the future should you wish to remove your application from the Pi Open Source Library you will be able to do this by simply moving your project out and sending a PR to remove the link to your code from the list. As an admin of your repository you can move it or remove it anytime without the approval of the Pi Core Team.    
 
-### 3. Edit License to your Applications Code Repository and code away
+### 3. Edit License to your Applications Code Repository and start coding
 To add the license to your code follow the below steps:
 - Edit the Copyright line of the LICENSE file in your repo 
   - Note: source of the PiOS license is also available here [github.com/pi-apps/pios/LICENSE](https://github.com/pi-apps/pios/LICENSE)
