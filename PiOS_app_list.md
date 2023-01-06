@@ -1,7 +1,7 @@
 # Pi Open Source App List
 The below list of projects are all of the applications which have committed to creating an Open Source Application using the PiOS license. Projects are in various states of development.
 
-To add your project to the list follow the instructions [here](/ReadMe.md)
+To add your project to the list follow the instructions [here](/README.md)
 
 **To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**  
 | Category | Title | Description | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |  
