@@ -36,7 +36,7 @@ Other Pi community developers can also contribute to the maintenance and improve
 
 In the future should you wish to remove your application from the Pi Open Source Library you will be able to do this by simply moving your project out and sending a PR to remove the link to your code from the list. As an admin of your repository you can move it or remove it anytime without the approval of the Pi Core Team.    
 
-### 3. Edit License to your Applications Code Repository and start coding
+### 3. Edit License to your Application's Code Repository and start coding
 To add the license to your code follow the below steps:
 - Edit the Copyright line of the LICENSE file in your repo 
 
