@@ -6,7 +6,7 @@ To learn more about Pi Open Source and how to utilize it continue reading
 ## The License
 The Pi Open Source Software License allows Pi Community Developers to create open source applications and tools for the Pi Ecosystem and foster collaboration among Pi community developers. In contrast to the MIT license the PiOS license grants unrestricted use of the software only within the Pi Ecosystem. Developers are encouraged to use this license when developing a Pi App.
 
-## Creating a PiOS Application 
+## Creating a PiOS application 
 
 We are offering projects github hosting under the `pi-apps` organization so that projects can be found easily. To request your own repo follow the steps below:
 
@@ -27,7 +27,7 @@ Information NOT necessary for the PR to be approved:
 - Link to Testnet App - Project admin to send new PR later when available
 - Link to Mainnet App - Project admin to send new PR later when available  
 
-### 2. Pi Core Team will approve PR and create repo
+### 2. Pi Core Team will approve PR and create repository
 We will approve your PR, create a repository under github.com/pi-apps and invite you as the admin of that repository. 
 
 The github user that submits the Pull Request to the PiOS Application Library table will be given admin privileges to this newly created repository. This will grant you full admin access to the repository to add additional team members, and perform any sensitive or destructive actions like managing security, moving or even deleting the repository.  
@@ -36,7 +36,7 @@ Other Pi community developers can also contribute to the maintenance and improve
 
 In the future should you wish to remove your application from the Pi Open Source Library you will be able to do this by simply moving your project out and sending a PR to remove the link to your code from the list. As an admin of your repository you can move it or remove it anytime without the approval of the Pi Core Team.    
 
-### 3. Edit License to your Application's Code Repository and start coding
+### 3. Edit License to your application's code repository and start coding
 To add the license to your code follow the below steps:
 - Edit the Copyright line of the LICENSE file in your repo 
 
