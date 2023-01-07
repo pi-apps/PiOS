@@ -11,7 +11,7 @@ The Pi Open Source Software License allows Pi Community Developers to create ope
 We are offering projects github hosting under the `pi-apps` organization so that projects can be found easily. To request your own repo follow the steps below:
 
 ### 1. Submit a PR to the PiOS App List 
-Create a PR on the [PiOS App List](/list.md) table with your applications information. Follow the formatted row template given on that doc, and fill in the below information as incomplete submissions will be rejected.  
+Create a PR on this repository adding your application's information to the [PiOS App List](/list.md) table. Follow the formatted row template given on that doc, and fill in the below information as incomplete submissions will be rejected.  
   
 Information necessary for the PR to be approved:
 - Category (If you need a new Category add it directly in the PR)
