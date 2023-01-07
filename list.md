@@ -25,5 +25,6 @@ To add your project to the list follow the instructions [here](/README.md)
 |----------------------|---------------|-------------------------------------------------------|------------------------------------|-------------------|---------------------------|-------------------------|-------------------------|
 | See potentials above | Example | Write a description here about what the code achieves | Ruby, Rust, React, JS, etc.        | TBD             |                           | (When available)        | (When available)        |
 | Consumer Utility | Pi Demo App | This application showcases the authentication and payment functionalities of the Pi SDK. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
+| Consumer Utility | PiiQ | Pi Door is a new feature for the PI Network that allows users to easily access and analyze data. By mining data and creating statistical charts, It helps users understand trends and patterns within the data they are interested in, and make more informed decisions as a result. | Node.js/Express, Vue3, Mysql,  | [demo](https://www.piiq.network) | N/A | N/A | N/A |
 
 
