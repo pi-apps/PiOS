@@ -40,4 +40,4 @@ In the future should you wish to remove your application from the Pi Open Source
 To add the license to your code follow the below steps:
 - Edit the Copyright line of the LICENSE file in your repo 
 
-Note: source of the PiOS license is also available here [github.com/pi-apps/pios/LICENSE](https://github.com/pi-apps/pios/LICENSE)
+Note: source of the PiOS license is also available here [https://github.com/pi-apps/PiOS/blob/main/LICENSE](https://github.com/pi-apps/PiOS/blob/main/LICENSE)
