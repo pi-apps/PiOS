@@ -25,5 +25,5 @@ To add your project to the list follow the instructions [here](/README.md)
 |----------------------|---------------|-------------------------------------------------------|------------------------------------|-------------------|---------------------------|-------------------------|-------------------------|
 | See potentials above | Example | Write a description here about what the code achieves | Ruby, Rust, React, JS, etc.        | TBD             |                           | (When available)        | (When available)        |
 | Consumer Utility | Pi Demo App | This application showcases the authentication and payment functionalities of the Pi SDK. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
-| Consumer Utility | PiNews | Pi News is a practical Pi Network comprehensive Web3 platform covering content information, ecological statistics, data tracking, etc. | WordPress, Php, Html,js,Mysql | [demo](https://piapp.news/) | N/A | N/A | N/A |
+| Consumer Utility | News for Pi | Pi News is a practical Pi Network comprehensive Web3 platform covering content information, ecological statistics, data tracking, etc. | WordPress, Php, Html,js,Mysql | [demo](https://piapp.news/) | N/A | N/A | N/A |
 
