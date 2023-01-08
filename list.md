@@ -25,5 +25,4 @@ To add your project to the list follow the instructions [here](/README.md)
 |----------------------|---------------|-------------------------------------------------------|------------------------------------|-------------------|---------------------------|-------------------------|-------------------------|
 | See potentials above | Example | Write a description here about what the code achieves | Ruby, Rust, React, JS, etc.        | TBD             |                           | (When available)        | (When available)        |
 | Consumer Utility | Pi Demo App | This application showcases the authentication and payment functionalities of the Pi SDK. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
-| Ecosystem Tools | ExplorerPi | Provide blockchain status and user service by binding user's public_key with pi_username | NextJS/NodeJS/MYSQL/Javascript | Updated by Pi-CT |ExplorerPi | (When available) | (When available) |
-
+| Ecosystem Tools | ExplorerPi | An novel, improved, and mobile friendly block explorer for the Pi blockchain made by Pioneers for Pioneers. | NextJS/NodeJS/MYSQL/Javascript | Updated by Pi-CT |ExplorerPi | (When available) | (When available) |
