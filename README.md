@@ -4,7 +4,7 @@ To view a list of open source Pi applications navigate to the [PiOS App List](/l
 To learn more about Pi Open Source and how to utilize it continue reading
 
 ## The License
-The Pi Open Source Software License allows Pi Community Developers to create open source applications and tools for the Pi Ecosystem and foster collaboration among Pi community developers. In contrast to the MIT license the PiOS license grants unrestricted use of the software only within the Pi Ecosystem. Developers are encouraged to use this license when developing a Pi App.
+The Pi Open Source Software License allows [Pi Community](https://minepi.com) Developers to create open source applications and tools for the Pi Ecosystem and foster collaboration among Pi community developers. In contrast to the MIT license the PiOS license grants unrestricted use of the software only within the Pi Ecosystem. Developers are encouraged to use this license when developing a Pi App.
 
 ## Creating a PiOS application 
 
