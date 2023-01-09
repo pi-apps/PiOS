@@ -41,3 +41,6 @@ To add the license to your code follow the below steps:
 - Edit the Copyright line of the LICENSE file in your repo 
 
 Note: source of the PiOS license is also available here [https://github.com/pi-apps/PiOS/blob/main/LICENSE](https://github.com/pi-apps/PiOS/blob/main/LICENSE)
+
+#### Disclaimer
+This is just a suggested license to limit use of your Software to Pi Network applications.  Pi Network does not take any responsibility for the use of this license by you or others.  All developers should consult their own counsel to ensure the license meets their needs and are solely liable for all consequences arising from the use of the license. To be included the PiOS app list you are required to use this license without alterations, aside from the copyright notice. If you make alterations or use a different license, you may still be eligible to be included in other lists that may be established at some later time by Pi Network. 
