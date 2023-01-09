@@ -18,6 +18,7 @@ Information necessary for the PR to be approved:
 - Title 
   - Can be in the form of “App_Name for Pi”, “App_Name on Pi”, “App_Name”, but not in the form of “Pi App_Name” 
   to avoid confusion with apps developed by the Pi Core Team
+  - You must include the following language in your code:  Pi, Pi Network and the Pi logo are trademarks of the Pi Community Company.
 - Description - Short description about what the application aims to achieve
 - Programming Languages + Framework to be used
 - Link to Pi Brainstorm project proposal (project name until feature is ready)
