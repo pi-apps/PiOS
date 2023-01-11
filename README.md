@@ -18,6 +18,7 @@ Information necessary for the PR to be approved:
 - Title 
   - Can be in the form of “App_Name for Pi”, “App_Name on Pi”, “App_Name”, but not in the form of “Pi App_Name” 
   to avoid confusion with apps developed by the Pi Core Team
+  - You must include the following language in your code:  Pi, Pi Network and the Pi logo are trademarks of the Pi Community Company.
 - Description - Short description about what the application aims to achieve
 - Programming Languages + Framework to be used
 - Link to Pi Brainstorm project proposal (project name until feature is ready)
@@ -41,3 +42,6 @@ To add the license to your code follow the below steps:
 - Edit the Copyright line of the LICENSE file in your repo 
 
 Note: source of the PiOS license is also available here [https://github.com/pi-apps/PiOS/blob/main/LICENSE](https://github.com/pi-apps/PiOS/blob/main/LICENSE)
+
+#### Disclaimer
+This is just a suggested license to limit use of your Software to Pi Network applications.  Pi Network does not take any responsibility for the use of this license by you or others.  All developers should consult their own counsel to ensure the license meets their needs and are solely liable for all consequences arising from the use of the license. To be included in the PiOS app list you are required to use this license without alterations, aside from the copyright notice. If you make alterations or use a different license, you may still be eligible to be included in other lists that may be established at some later time by Pi Network. 
