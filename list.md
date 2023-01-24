@@ -1,7 +1,24 @@
 # PiOS App List
-The below list of projects are all of the applications which have committed to creating an Open Source Application using the PiOS license. Projects are in various states of development.
+The below lists encompass the libraries that extend the functionality of Pi and the applications which have committed to creating an Open Source Application using the PiOS license. Projects are in various states of development.
 
 To add your project to the list follow the instructions [here](/README.md)
+
+### Adding a new row to the table
+**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**  
+| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | 
+# Libraries
+| **Title**     | **Description**                                            | **Category**         | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** |
+|---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|
+| (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           |
+| Pi SDK for Python | Python version of the Pi SDK for making App2Pioneer Payments   | SDK | Python        | TBD             |                           |
+
+
+<br/>
+
+### Adding a new row to the table
+**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**  
+| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |  
+
 
 ### Potential App Categories
 - Social Media
@@ -15,12 +32,7 @@ To add your project to the list follow the instructions [here](/README.md)
 - Growth apps
 - Propose a new category if needed
 
-
-### Adding a new row to the table
-**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**  
-| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |  
-
-# List
+# App List
 | **Title**     | **Description**                                            | **Category**         | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** | **Link to Testnet App** | **Link to Mainnet App** |
 |---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|-------------------------|-------------------------|
 | (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           | (When available)        | (When available)        |
