@@ -1,4 +1,4 @@
-# PiOS App and Library List
+# PiOS App and Library list
 The below lists encompass the libraries that extend the functionality of Pi and the applications which have committed to creating an Open Source Application using the PiOS license. Projects are in various states of development and are directly managed by their respective community maintainers.
 
 To add your project to the list follow the instructions [here](/README.md)
