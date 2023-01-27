@@ -12,7 +12,7 @@ To add your project to the list follow the instructions [here](/README.md)
 | **Title**     | **Description**                                            | **Category**         | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** (if applicable) |
 |---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|
 | (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           |
-| Pi SDK for Python | Python version of the Pi SDK for making App2Pioneer Payments   | SDK | Python        | TBD             |                           |
+| Pi SDK for Python | Python version of the Pi SDK for making App2Pioneer Payments   | SDK | Python        | [pi-python](https://github.com/pi-apps/pi-python)             |                           |
 
 
 <br/>
