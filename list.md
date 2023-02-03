@@ -6,8 +6,8 @@ To add your project to the list follow the instructions [here](/README.md)
 # SDKs and other libraries
 
 ### Adding a new row to the table
-**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**  
-| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | 
+**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**
+| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link |
 
 | **Title**     | **Description**                                            | **Category**         | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** (if applicable) |
 |---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|
@@ -20,8 +20,8 @@ To add your project to the list follow the instructions [here](/README.md)
 # App List
 
 ### Adding a new row to the table
-**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**  
-| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |  
+**To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**
+| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |
 
 
 ### Potential App Categories
@@ -54,6 +54,7 @@ To add your project to the list follow the instructions [here](/README.md)
 | Pailot | Pailot is a decentralized delivery service application that is focused on piloting pioneers into full decentralized logistics, food, healthcare, etc. It is "distributed by pioneers all over the globe", centered on API connectivity, and fueled by Pi. | Business tools | Typescript/React, NodeJS/Express | [pailot-for-pi](https://github.com/pi-apps/pailot-for-pi)            |  [pi://brainstorm.pi/project/63bc0ee6f64d17c346df887c](pi://brainstorm.pi/project/63bc0ee6f64d17c346df887c)         | (When available)        | (When available)        |
 | Blog for Pi |Blog for Pi will encourage good contents creation, Pi Commuity Members will get paid for good bloog posts. | Social Media | PHP,HTML,Javascript,Mysql,CSS,Bootstrap | [blog-for-pi](https://github.com/pi-apps/blog-for-pi) | pi://brainstorm.pi/project/63c1166a76b89d678428e1c0 | [Blog for Pi](#) | TBD | TBD |
 | Internet Speed | A customized speedtest web page to measure your internet speed | Consumer Utility | Html/Javascript        | [internet-speed](https://github.com/pi-apps/internet-speed)             | pi://brainstorm.pi/project/63befe0140315d01d58a3572 | (When available)        | https://internetspeed.top        |
-| Maths Madness | Put your maths skills to the ultimate test and compete againt a random opponent in this exciting online maths time-based challenge! The stakes are high as the winner gets to earn a few Pi coins | Education, Entertainment, Games | Ruby/Rails, ReactJS, MongoDB, | [math-madness](https://github.com/pi-apps/math-madness) | pi://brainstorm.pi/project/63b734aad610bb349288aad3 | (When available) | (When available) | 
-| Trust Hub | Platform where Pioneers can find information about other Pi Apps to verify their reliability and spread awareness about scams. | Ecosystem Tools | TypeScript/Svelte, NodeJS/AdonisJS, PostgreSQL | [trust-hub](https://github.com/pi-apps/trust-hub) | pi://brainstorm.pi/project/63b9d69a02f49a6f7c7e753f | (When available) | (When available) | 
+| Maths Madness | Put your maths skills to the ultimate test and compete againt a random opponent in this exciting online maths time-based challenge! The stakes are high as the winner gets to earn a few Pi coins | Education, Entertainment, Games | Ruby/Rails, ReactJS, MongoDB, | [math-madness](https://github.com/pi-apps/math-madness) | pi://brainstorm.pi/project/63b734aad610bb349288aad3 | (When available) | (When available) |
+| Trust Hub | Platform where Pioneers can find information about other Pi Apps to verify their reliability and spread awareness about scams. | Ecosystem Tools | TypeScript/Svelte, NodeJS/AdonisJS, PostgreSQL | [trust-hub](https://github.com/pi-apps/trust-hub) | pi://brainstorm.pi/project/63b9d69a02f49a6f7c7e753f | (When available) | (When available) |
+| Polls for Pi | An intuitive way of creating polls for Pi. | Business tools | Typescript/React, Node.js/Express, MongoDB | [pi-polls](https://github.com/pi-apps/polls-for-pi) | pi://brainstorm.pi/project/63bf97f501717802737afbd2 | pi://pipolls.blurtkey.com | (When available) |
 | Tippy               | A web application where content creators can upload their content and get paid in Pi. As of now its through stand alone application but planning to make it as an extentsion so that from every social media platform audience can tip content creators through Pi. | Social Media                    | TypeScript/JavaScript, React, NodeJS/ExpressJS, MongoDB | TBD | Unable to create proposal in pi brainstorm as `I agree` button is not working| (When available) | (When available) |
