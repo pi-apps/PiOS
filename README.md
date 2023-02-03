@@ -1,5 +1,5 @@
 # Pi Open Source (PiOS)
-To view a list of open source Pi applications navigate to the [PiOS App List](/list.md) 
+To view a list of open source Pi applications and libraries navigate to the [PiOS App List](/list.md) 
 
 To learn more about Pi Open Source and how to utilize it continue reading
 
