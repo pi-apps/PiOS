@@ -13,6 +13,8 @@ To add your project to the list follow the instructions [here](/README.md)
 |---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|
 | (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           |
 | Pi SDK for Python | Python version of the Pi SDK for making App2Pioneer Payments   | SDK | Python        | [pi-python](https://github.com/pi-apps/pi-python)             |                           |
+| Pi SDK for Blazor | Blazor version of the Pi SDK for Blazor applications  | SDK | C#, .NET, .NET Core        | [pi-blazor](https://github.com/pi-apps/pi-blazor)             |                           |
+
 
 
 <br/>
@@ -57,4 +59,6 @@ To add your project to the list follow the instructions [here](/README.md)
 | Maths Madness | Put your maths skills to the ultimate test and compete againt a random opponent in this exciting online maths time-based challenge! The stakes are high as the winner gets to earn a few Pi coins | Education, Entertainment, Games | Ruby/Rails, ReactJS, MongoDB, | [math-madness](https://github.com/pi-apps/math-madness) | pi://brainstorm.pi/project/63b734aad610bb349288aad3 | (When available) | (When available) |
 | Trust Hub | Platform where Pioneers can find information about other Pi Apps to verify their reliability and spread awareness about scams. | Ecosystem Tools | TypeScript/Svelte, NodeJS/AdonisJS, PostgreSQL | [trust-hub](https://github.com/pi-apps/trust-hub) | pi://brainstorm.pi/project/63b9d69a02f49a6f7c7e753f | (When available) | (When available) |
 | Polls for Pi | An intuitive way of creating polls for Pi. | Business tools | Typescript/React, Node.js/Express, MongoDB | [pi-polls](https://github.com/pi-apps/polls-for-pi) | pi://brainstorm.pi/project/63bf97f501717802737afbd2 | pi://pipolls.blurtkey.com | (When available) |
-| Piora on Pi | A cutting-edge social media platform powered by Pi blockchain and driven by micro-payments. | Social Media | Typescript/React, Node.js/Express, MongoDB | [Piora](https://github.com/pi-apps/Piora) | pi://brainstorm.pi/project/63d84891a7014301d5d2ed17 | [demoPiora](https://piora.space/) | (When available) |
+| Ora on Pi | A cutting-edge social media platform powered by Pi blockchain and driven by micro-payments. | Social Media | Typescript/React, Node.js/Express, MongoDB | [Ora](https://github.com/pi-apps/Ora) | pi://brainstorm.pi/project/63d84891a7014301d5d2ed17 | [demo Ora](https://piora.space/) | (When available) |
+
+
