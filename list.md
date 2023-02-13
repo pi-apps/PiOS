@@ -7,9 +7,9 @@ To add your project to the list follow the instructions [here](/README.md)
 
 ### Adding a new row to the table
 **To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**
-| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link |
+| PI INSURANCE POOL para PI. Pi, Pi Network y el logotipo de Pi son marcas comerciales de Pi Community Company |PROTECT THE PROPERTIES OF THE METAVERSE AND ITS USERS FROM FRAUD | Security | PYTHON / DJANGO | Updated by Pi-CT |pi://brainstorm.pi/project/63b9d0268dc6e31ac4fdf6cf|
 
-| **Title**     | **Description**                                            | **Category**         | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** (if applicable) |
+| PI INSURANCE POOL para PI. Pi, Pi Network y el logotipo de Pi son marcas comerciales de Pi Community Company     | PROTECT THE PROPERTIES OF THE METAVERSE AND ITS USERS FROM FRAUD                                            | Security         | PYTHON / DJANGO | **Link To  Repo** | pi://brainstorm.pi/project/63b9d0268dc6e31ac4fdf6cf| |
 |---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|
 | (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           |
 | Pi SDK for Python | Python version of the Pi SDK for making App2Pioneer Payments   | SDK | Python        | [pi-python](https://github.com/pi-apps/pi-python)             |                           |
@@ -39,7 +39,7 @@ To add your project to the list follow the instructions [here](/README.md)
 - (Propose a new category if needed)
 
 
-| **Title**     | **Description**                                            | **Category**         | **Programming Language/Framework** | **Link To  Repo** | **Link to Pi Brainstorm** | **Link to Testnet App** | **Link to Mainnet App** |
+| PI INSURANCE POOL para PI. Pi, Pi Network y el logotipo de Pi son marcas comerciales de Pi Community Company      | PROTECT THE PROPERTIES OF THE METAVERSE AND ITS USERS FROM FRAUD                                          | SECURITY       | PYTHON / DJANGO | **Link To  Repo** | pi://brainstorm.pi/project/63b9d0268dc6e31ac4fdf6cf| | **Link to Testnet App** | **Link to Mainnet App** |
 |---------------|------------------------------------------------------------|----------------------|------------------------------------|-------------------|---------------------------|-------------------------|-------------------------|
 | (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           | (When available)        | (When available)        |
 | Demo | This application showcases the authentication and payment functionalities of the Pi SDK. | Consumer Utility | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
