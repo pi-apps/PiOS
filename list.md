@@ -14,6 +14,7 @@ To add your project to the list follow the instructions [here](/README.md)
 | (Example) | (Write a description here about what the code achieves) | (See options above) | (Ruby/Rails, Python/Django, JS/React, etc.)        | TBD             |                           |
 | Pi SDK for Python | Python version of the Pi SDK for making App2Pioneer Payments   | SDK | Python        | [pi-python](https://github.com/pi-apps/pi-python)             |                           |
 | Pi SDK for Blazor | Blazor version of the Pi SDK for Blazor applications  | SDK | C#, .NET, .NET Core        | [pi-blazor](https://github.com/pi-apps/pi-blazor)             |                           |
+| SDK for C# | C# version of the Pi SDK for NET applications  | SDK | C#, .NET, .NET Standard 2.0        |              |                           |
 
 
 
