@@ -1,3 +1,4 @@
+[![Jekyll site CI](https://github.com/KOSASIH/PiOS/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/jekyll-docker.yml)
 [![StackHawk](https://github.com/KOSASIH/PiOS/actions/workflows/stackhawk.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/stackhawk.yml)
 [![CI](https://github.com/KOSASIH/PiOS/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/blank.yml)
 # Pi Open Source (PiOS)
