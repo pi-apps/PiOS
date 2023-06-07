@@ -16,7 +16,7 @@ To add your project to the list follow the instructions [here](/README.md)
 | Pi SDK for Blazor | Blazor version of the Pi SDK for Blazor applications  | SDK | C#, .NET, .NET Core        | [pi-blazor](https://github.com/pi-apps/pi-blazor)             |                           |
 | Pi SDK for C# | C# version of the Pi SDK for NET applications  | SDK | C#, .NET, .NET Standard 2.0        |      [pi-c#](https://github.com/pi-apps/pi-csharp)        |                           |
 | Pi SDK for Go | Go version of the Pi SDK for making A2U and U2A Payments | SDK | Go        |      [pi-go](https://github.com/pi-apps/pi-go)        |                           |
-
+| Pi SDK for PHP| App to User payment for Pi in PHP language | SDK | PHP        | [pi-php](https://github.com/pi-apps/pi-php/tree/main)            | [pi-brainstorm](https://brainstorm.pi/project/63cd02acea109c003afe2c2a)                         |
 
 
 <br/>
