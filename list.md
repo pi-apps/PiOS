@@ -16,7 +16,7 @@ To add your project to the list follow the instructions [here](/README.md)
 | Pi SDK for Blazor | Blazor version of the Pi SDK for Blazor applications  | SDK | C#, .NET, .NET Core        | [pi-blazor](https://github.com/pi-apps/pi-blazor)             |                           |
 | Pi SDK for C# | C# version of the Pi SDK for NET applications  | SDK | C#, .NET, .NET Standard 2.0        |      [pi-c#](https://github.com/pi-apps/pi-csharp)        |                           |
 | Pi SDK for Go | Go version of the Pi SDK for making A2U and U2A Payments | SDK | Go        |      [pi-go](https://github.com/pi-apps/pi-go)        |                           |
-
+| Pi SDK for PHP| App to User payment for Pi in PHP language | SDK | PHP        | [pi-php](https://github.com/pi-apps/pi-php/tree/main)            | [pi-brainstorm](https://brainstorm.pi/project/63cd02acea109c003afe2c2a)                         |
 
 
 <br/>
@@ -70,4 +70,3 @@ To add your project to the list follow the instructions [here](/README.md)
 | QRcodePay | A Tool for Pioneers to make payment easily by scanning QRcode | Ecosystem Tools | NextJS/NodeJS/Firebase/Javascript | [qrcodepay](https://github.com/pi-apps/qrcodepay) | pi://brainstorm.pi/project/63f8c8069326fc9c895bedba |  [pi://pi-qrcode.vercel.app/](pi://pi-qrcode.vercel.app/) | (When available) |
 | Voice Of Pi | Voice Of Pi is a Social Finance platform based on the world’s most accessible blockchain: Pi Network. | Social Media | JavaScript/Html/Bootstrap, Express.js | [voice-of-pi](https://github.com/pi-apps/voice-of-pi) | pi://brainstorm.pi/project/63bce50944c7690233094b2d | https://pivoice.app | (When available) |
 | WePiSharp | Tool automatic create A2U for WePi Social Network (Save user's content on PiNetwork), using [pi-csharp](https://github.com/pi-apps/pi-csharp) | Social Media | C# | [wepisharp](https://github.com/pi-apps/wepisharp)| pi://brainstorm.pi/project/63d8461017a58d2fbcb9e8b5 |  [WePi on Testnet](https://demo.wepi.social/) | [WePi Social Network Mainnet](https://wepi.social/) |
-| App2User payment in PHP | App to User payment for Pi in PHP language | Packages | PHP | TBD| pi://brainstorm.pi/project/63cd02acea109c003afe2c2a |  TBD | TBD |
