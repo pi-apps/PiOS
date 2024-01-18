@@ -1,0 +1,158 @@
+version = 1
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "terraform"
+
+[[analyzers]]
+name = "swift"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "scala"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "php"
+
+  [analyzers.meta]
+  bootstrap_files = ["revo"]
+
+[[analyzers]]
+name = "kotlin"
+
+  [analyzers.meta]
+  runtime_version = "19"
+  language_version = "1.7"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue",
+    "meteor",
+    "angular",
+    "ember",
+    "angularjs"
+  ]
+  environment = [
+    "nodejs",
+    "jest",
+    "jasmine",
+    "mongo",
+    "vitest",
+    "browser",
+    "mocha",
+    "jquery",
+    "cypress"
+  ]
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "19"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/KOSASIH/PiOS"
+
+[[analyzers]]
+name = "docker"
+
+  [analyzers.meta]
+  dockerfile_paths = ["revo"]
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "csharp"
+
+[[analyzers]]
+name = "ansible"
+
+[[transformers]]
+name = "dotnet-format"
+
+[[transformers]]
+name = "clang-format"
+
+[[transformers]]
+name = "gofmt"
+
+[[transformers]]
+name = "gofumpt"
+
+[[transformers]]
+name = "prettier"
+
+[[transformers]]
+name = "standardjs"
+
+[[transformers]]
+name = "google-java-format"
+
+[[transformers]]
+name = "php-cs-fixer"
+
+[[transformers]]
+name = "autopep8"
+
+[[transformers]]
+name = "black"
+
+[[transformers]]
+name = "ruff"
+
+[[transformers]]
+name = "yapf"
+
+[[transformers]]
+name = "isort"
+
+[[transformers]]
+name = "rubocop"
+
+[[transformers]]
+name = "standardrb"
+
+[[transformers]]
+name = "rustfmt"
+
+[[transformers]]
+name = "scalafmt"
+
+[[transformers]]
+name = "swift-format"
+
+[[transformers]]
+name = "ktlint"
