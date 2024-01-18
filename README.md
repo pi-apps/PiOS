@@ -1,5 +1,4 @@
-[![DeepSource](https://app.deepsource.com/gh/KOSASIH/PiOS.svg/?label=code+coverage&show_trend=true&token=7-fXzifFMBakeNdH5u3ywvAy)](https://app.deepsource.com/gh/KOSASIH/PiOS/)
-
+[![DeepSource](https://app.deepsource.com/gh/KOSASIH/PiOS.svg/?label=active+issues&show_trend=true&token=7-fXzifFMBakeNdH5u3ywvAy)](https://app.deepsource.com/gh/KOSASIH/PiOS/)
 [![Jekyll site CI](https://github.com/KOSASIH/PiOS/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/jekyll-docker.yml)
 [![StackHawk](https://github.com/KOSASIH/PiOS/actions/workflows/stackhawk.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/stackhawk.yml)
 [![CI](https://github.com/KOSASIH/PiOS/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/blank.yml)
