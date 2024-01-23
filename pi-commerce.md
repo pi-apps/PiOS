@@ -15,23 +15,24 @@ Copy the format below, add it to the bottom of the table, and update it with you
 **Example Entry:**
 
 ```
-| Team Name | App Description | Programming Language/Framework | [demo](https://github.com/pi-apps/demo) | Brainstorm link if applicable |
+| Team Name | App Description | Programming Language/Framework | [demo](https://github.com/pi-apps/demo) | app-name.PiNet.com link if applicable |
 ```
 
 
 # Repository Listing Table
 
-| **Team Name** | **App Description** | **Programming Language/Framework** | **Link To Repo** | **Brainstorm Link** (if applicable) |
+| **Team Name** | **App Description** | **Programming Language/Framework** | **Link To Repo** | **PiNet Link** (to try app) |
 |-----------|-----------------|------------------------------------|------------------|-------------------------------------|
-| (Example) | (Write anything special about your app or code)  | (Ruby/Rails, Python/Django, JS/React, etc.)        | (link)             | (link)                          |
-| Pi Core Team (as example) | This demo app showcases the authentication and payment functionalities of the Pi SDK. It is not part of the hackathon, just an example. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
+| (Example) | (Write anything special about your app or code)  | (Ruby/Rails, Python/Django, JS/React, etc.)        | (link)                          | (Pi Apps can now get free ___.pinet.com domains that work on any browser)             |
+| Pi Core Team (as example) | This demo app showcases the authentication and payment functionalities of the Pi SDK. It is not part of the hackathon, just an example. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | [Fireside](http://fireside.pinet.com) (as example) | [pi://demo.pi](pi://demo.pi) | N/A |
 
 
   
 #
 
 ### For Projects under Active Development
-If your app is progressing significantly, the core team may offer to host your repository under the `pi-apps` organization on GitHub (github.com/pi-apps). This is to ensure that promising projects are easily discoverable and well-supported.
+If your app is progressing significantly, the Pi Core Team may offer to host your repository under the `pi-apps` organization on GitHub (github.com/pi-apps). This is to ensure that promising projects are easily discoverable and well-supported. The winning app, if built using PiOS, will receive further support from the Pi Core Team, including server resources to ensure app stability and the removal of cost barriers, up to a specified cap.
+
 
 ## Roles and Responsibilities of Team Leaders
 Team leaders are responsible for:
