@@ -25,7 +25,7 @@ Copy the format below, add it to the bottom of the table, and update it with you
 |-----------|-----------------|------------------------------------|------------------|-------------------------------------|
 | (Example) | (Write anything special about your app or code)  | (Ruby/Rails, Python/Django, JS/React, etc.)        | (link)                          | (Pi Apps can now get free ___.pinet.com domains that work on any browser)             |
 | Pi Core Team (as example) | This demo app showcases the authentication and payment functionalities of the Pi SDK. It is not part of the hackathon, just an example. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | [Fireside](http://fireside.pinet.com) (as example) | [pi://demo.pi](pi://demo.pi) | N/A |
-
+| EasyGoods | A commerce project for pi commerce hackathon | Javascript/NextJS, FireStore | [repo](https://github.com/0205miss/EasyGoods) | [EasyGoods](https://easygoods5604.pinet.com) |
 
   
 #
