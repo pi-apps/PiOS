@@ -28,7 +28,7 @@ Copy the format below, add it to the bottom of the table, and update it with you
 | (Example) | (Write anything special about your app or code)  | (Ruby/Rails, Python/Django, JS/React, etc.)        | (link)                          | (Pi Apps can now get free ___.pinet.com domains that work on any browser)             |
 | Pi Core Team (as example) | This demo app showcases the authentication and payment functionalities of the Pi SDK. It is not part of the hackathon, just an example. | Typescript/React, Node.js/Express, MongoDB | [demo](https://github.com/pi-apps/demo) | [Fireside](http://fireside.pinet.com) (as example) | [pi://demo.pi](pi://demo.pi) | N/A |
 | Pi Commerce App | These are the Mockups and Prototypes for the Hackathon | Figma | [pi-commerce-app](https://github.com/pi-apps/pi-commerce-app)| N/A | N/A | N/A |
-| Local Commerce Hub | A commerce app project based on the Pi CT mockups | TTypescript/React, Node.js/Express, MongoDB | [local-commerce-hub](https://github.com/pi-apps/local-commerce-hub)| N/A | N/A | N/A |
+| Local Commerce Hub | A commerce app project based on the Pi CT mockups | Typescript/React, Node.js/Express, MongoDB | [local-commerce-hub](https://github.com/pi-apps/local-commerce-hub)| N/A | N/A | N/A |
 | EasyGoods | A commerce project for pi commerce hackathon | Javascript/NextJS, FireStore | [EasyGoods](https://github.com/0205miss/EasyGoods) | [EasyGoods](https://easygoods5604.pinet.com) |
 
   
