@@ -1,4 +1,5 @@
 [![DeepSource](https://app.deepsource.com/gh/KOSASIH/PiOS.svg/?label=active+issues&show_trend=true&token=7-fXzifFMBakeNdH5u3ywvAy)](https://app.deepsource.com/gh/KOSASIH/PiOS/)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/KOSASIH/PiOS/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/KOSASIH/PiOS/tree/main)
 [![Mark stale issues and pull requests](https://github.com/KOSASIH/PiOS/actions/workflows/stale.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/stale.yml)
 [![Greetings](https://github.com/KOSASIH/PiOS/actions/workflows/greetings.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/greetings.yml)
 [![Jekyll site CI](https://github.com/KOSASIH/PiOS/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/PiOS/actions/workflows/jekyll-docker.yml)
