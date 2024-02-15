@@ -2,6 +2,8 @@
 
 Welcome, PiOS Developers! This guide is designed to facilitate team formation and collaboration for those participating in the Pi Commerce Hackathon.
 
+[Video walkthrough of the app](http://www.youtube.com/watch?v=_Uu8ccbqEcA)
+
 ## Getting Started
 Team leaders are encouraged to create a GitHub repository for their project and list it here. This allows other developers to discover and contribute to projects that align with their interests and expertise, fostering effective collaboration right from the start.
 
