@@ -33,7 +33,7 @@ Copy the format below, add it to the bottom of the table, and update it with you
 | Local Commerce Hub | A commerce app project based on the Pi CT mockups | Typescript/React, Node.js/Express, MongoDB | [local-commerce-hub](https://github.com/pi-apps/local-commerce-hub)| N/A | N/A | N/A |
 | EasyGoods | A commerce project for pi commerce hackathon | Javascript/NextJS, FireStore | [EasyGoods](https://github.com/0205miss/EasyGoods) | [EasyGoods](https://easygoods5604.pinet.com) |
 | Map Of Pi | Map of Pi is a mobile application developed to help Pi community members easily locate local businesses that accept Pi as payment | TypeScript/Angular, NodeJs/Express/MongoDB | [map-of-pi](https://github.com/zolcsi/map-of-pi) | [Map Of Pi](https://mapofpi9975.pinet.com) |
-  
+| Tanzania Commerce For Pi | "Tanzania Commerce for Pi" is a mobile application developed by David Mangare in collaboration with Pi Community. The app serves as a local Pi Commerce platform, incorporating multivendor and multi-user functionalities. Vendors can register, and users can access a variety of products and services through the app. The application includes an admin panel for efficient management and features a map displaying the locations of registered vendors. The payment system utilizes Pi Coin for transactions. | Flutter | N/A | N/A | N/A | N/A |
 #
 
 ### For Projects under Active Development
