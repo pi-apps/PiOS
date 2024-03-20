@@ -32,7 +32,7 @@ Copy the format below, add it to the bottom of the table, and update it with you
 | Pi Commerce App | These are the Mockups and Prototypes for the Hackathon | Figma | [pi-commerce-app](https://github.com/pi-apps/pi-commerce-app)| N/A | N/A | N/A |
 | Local Commerce Hub | A commerce app project based on the Pi CT mockups | Typescript/React, Node.js/Express, MongoDB | [local-commerce-hub](https://github.com/pi-apps/local-commerce-hub)| N/A | N/A | N/A |
 | EasyGoods | A commerce project for pi commerce hackathon | Javascript/NextJS, FireStore | [EasyGoods](https://github.com/0205miss/EasyGoods) | [EasyGoods](https://easygoods5604.pinet.com) |
-| Map Of Pi | Map of Pi is a mobile application developed to help Pi community members easily locate local and global businesses that accept Pi as payment | TypeScript/Angular, NodeJs/Express/MongoDB | [map-of-pi](https://github.com/swoocn/map-of-pi) | [Map Of Pi](https://mapofpi9975.pinet.com) |
+| Map Of Pi | Map of Pi is a mobile application developed to help Pi community members easily locate local and global businesses that accept Pi as payment | TypeScript/Angular, NodeJs/Express/MongoDB | [map-of-pi-redux](https://github.com/swoocn/map-of-pi-redux) | [Map Of Pi](https://mapofpi9975.pinet.com) |
 | PyNook | PyNooK is a global barter mall. Through positioning, it can help pi pioneers quickly find merchants who accept pi payment, so as to achieve online and offline fast barter | Javascript/NextJS | [pynook](https://github.com/picnty/pynook) | [PyNook](https://pynook7269.pinet.com) |
   
 #
