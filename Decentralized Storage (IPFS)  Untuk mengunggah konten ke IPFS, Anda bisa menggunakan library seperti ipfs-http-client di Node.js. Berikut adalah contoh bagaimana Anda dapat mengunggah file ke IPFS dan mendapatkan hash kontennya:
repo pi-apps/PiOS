@@ -1,0 +1,15 @@
+const IPFS = require('ipfs-http-client');
+const ipfs = IPFS.create({ host: 'ipfs.infura.io', port: '5001', protocol: 'https' });
+
+async function uploadToIPFS(content) {
+    const result = await ipfs.add(content);
+    console.log('IPFS Hash:', result.path); // Hash dari file di IPFS
+    return result.path;
+}
+
+// Contoh cara menggunakan fungsi ini
+const content = "Ini adalah konten saya yang diunggah ke IPFS";
+uploadToIPFS(content).then(ipfsHash => {
+    console.log("Hash konten:", ipfsHash);
+});
+
