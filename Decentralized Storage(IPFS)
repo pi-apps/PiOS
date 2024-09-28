@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract ContentPlatform {
+    // Token untuk membayar pembuat konten
+    mapping(address => uint256) public balances;
+    
+    struct Content {
+        address creator;
+        string ipfsHash; // hash dari konten di IPFS
+        uint256 reward;
+    }
+    
+    Content[] public contents;
+    
+    event ContentCreated(address indexed creator, string ipfsHash, uint256 reward);
+    
+    function createContent(string memory ipfsHash) public {
+        uint256 reward = 100; // imbalan tetap untuk setiap konten yang diunggah
+        contents.push(Content(msg.sender, ipfsHash, reward));
+        balances[msg.sender] += reward;
+        
+        emit ContentCreated(msg.sender, ipfsHash, reward);
+    }
+    
+    function withdrawReward() public {
+        uint256 amount = balances[msg.sender];
+        require(amount > 0, "No reward to withdraw");
+        
+        balances[msg.sender] = 0;
+        payable(msg.sender).transfer(amount);
+    }
+    
+    // Fungsi fallback untuk menerima dana
+    receive() external payable {}
+}
