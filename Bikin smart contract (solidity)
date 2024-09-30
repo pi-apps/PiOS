@@ -1,0 +1,32 @@
+import React, { useState } from 'react';
+import Web3 from 'web3';
+import { uploadToIPFS } from './ipfsClient'; // mengimpor fungsi IPFS
+import ContentPlatform from './ContentPlatform.json'; // ABI dari smart contract
+
+const web3 = new Web3(Web3.givenProvider);
+const contractAddress = "SMART_CONTRACT_ADDRESS";
+const contract = new web3.pi network.Contract(ContentPlatform.abi, contractAddress);
+
+function UploadContent() {
+  const [content, setContent] = useState("");
+
+  const handleUpload = async () => {
+    try {
+      const accounts = await web3.eth.requestAccounts();
+      const ipfsHash = await uploadToIPFS(content);
+      await contract.methods.createContent(ipfsHash).send({ from: accounts[0] });
+      alert('Konten berhasil diunggah dan imbalan diberikan!');
+    } catch (error) {
+      console.error('Terjadi kesalahan:', error);
+    }
+  };
+
+  return (
+    <div>
+      <textarea value={content} onChange={e => setContent(e.target.value)} />
+      <button onClick={handleUpload}>Unggah Konten</button>
+    </div>
+  );
+}
+
+export default UploadContent;

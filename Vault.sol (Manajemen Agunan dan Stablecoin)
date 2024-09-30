@@ -1,0 +1,46 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "./Stablecoin.sol";
+
+contract Vault {
+    Stablecoin public stablecoin;
+    mapping(address => uint256) public collateral;
+    mapping(address => uint256) public debt;
+    uint256 public constant COLLATERALIZATION_RATIO = 150; // 150%
+
+    constructor(address _stablecoin) {
+        stablecoin = Stablecoin(_stablecoin);
+    }
+
+    // Pengguna menyetor agunan (ETH)
+    function depositCollateral() external payable {
+        collateral[msg.sender] += msg.value;
+    }
+
+    // Fungsi untuk meminjam stablecoin dengan jaminan
+    function borrow(uint256 _amount) external {
+        require(collateral[msg.sender] > 0, "No collateral deposited");
+        uint256 maxBorrow = (collateral[msg.sender] * 1 ether) / COLLATERALIZATION_RATIO;
+        require(debt[msg.sender] + _amount <= maxBorrow, "Exceeds collateral limit");
+
+        debt[msg.sender] += _amount;
+        stablecoin.mint(msg.sender, _amount);
+    }
+
+    // Fungsi untuk membayar kembali utang dan mendapatkan kembali agunan
+    function repay(uint256 _amount) external {
+        require(debt[msg.sender] >= _amount, "Amount exceeds debt");
+        stablecoin.burnFrom(msg.sender, _amount);
+        debt[msg.sender] -= _amount;
+    }
+
+    // Fungsi untuk menarik agunan yang telah dibayarkan penuh
+    function withdrawCollateral(uint256 _amount) external {
+        require(debt[msg.sender] == 0, "Debt must be paid off first");
+        require(collateral[msg.sender] >= _amount, "Insufficient collateral");
+
+        collateral[msg.sender] -= _amount;
+        payable(msg.sender).transfer(_amount);
+    }
+}
