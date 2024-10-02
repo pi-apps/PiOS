@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity DApp</title>
+</head>
+<body>
+    <h1>Digital Identity DApp</h1>
+
+    <div>
+        <h2>Register</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="dob" placeholder="Date of Birth (Timestamp)">
+        <input type="text" id="nationality" placeholder="Nationality">
+        <button onclick="registerUser()">Register</button>
+    </div>
+
+    <div>
+        <h2>Get User Info</h2>
+        <input type="text" id="address" placeholder="User Address">
+        <button onclick="getUser()">Get Info</button>
+        <p id="userInfo"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script>
+        const contractAddress = 'YOUR_CONTRACT_ADDRESS';
+        const contractABI = [...] // Paste ABI from compilation here
+
+        let web3;
+        let contract;
+
+        window.addEventListener('load', async () => {
+            if (window.ethereum) {
+                web3 = new Web3(window.ethereum);
+                await window.ethereum.enable();
+            } else {
+                console.log('Metamask not detected');
+            }
+            
+            contract = new web3.eth.Contract(contractABI, contractAddress);
+        });
+
+        async function registerUser() {
+            const accounts = await web3.eth.getAccounts();
+            const name = document.getElementById('name').value;
+            const dob = document.getElementById('dob').value;
+            const nationality = document.getElementById('nationality').value;
+
+            contract.methods.register(name, dob, nationality).send({ from: accounts[0] })
+                .on('receipt', (receipt) => {
+                    alert('User registered successfully');
+                });
+        }
+
+        async function getUser() {
+            const address = document.getElementById('address').value;
+            contract.methods.getUser(address).call().then((result) => {
+                document.getElementById('userInfo').innerHTML = `
+                    Name: ${result[0]} <br>
+                    DOB: ${result[1]} <br>
+                    Nationality: ${result[2]}
+                `;
+            });
+        }
+    </script>
+</body>
+</html>
