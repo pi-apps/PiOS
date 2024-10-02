@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Identity {
+    struct User {
+        string name;
+        uint256 dob; // Date of Birth
+        string nationality;
+        bool isRegistered;
+    }
+
+    mapping(address => User) public users;
+
+    function register(string memory _name, uint256 _dob, string memory _nationality) public {
+        require(!users[msg.sender].isRegistered, "User is already registered.");
+        users[msg.sender] = User(_name, _dob, _nationality, true);
+    }
+
+    function getUser(address _user) public view returns (string memory, uint256, string memory) {
+        require(users[_user].isRegistered, "User not registered.");
+        User memory user = users[_user];
+        return (user.name, user.dob, user.nationality);
+    }
+}
