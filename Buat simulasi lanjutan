@@ -1,0 +1,50 @@
+import threading
+import time
+
+# Function to fetch PI coin data from an exchange
+def fetch_coin_data(exchange):
+    try:
+        response = requests.get(f"{exchange['api_url']}/v3/ticker/price?symbol={PI_COIN_SYMBOL}USDT")
+        if response.status_code == 200:
+            data = response.json()
+            print(f"Price of {PI_COIN_SYMBOL} on {exchange['name']}: {data['price']}")
+        else:
+            print(f"Failed to fetch data from {exchange['name']}: {response.status_code}")
+    except Exception as e:
+        print(f"Error fetching data from {exchange['name']}: {e}")
+
+# Function to connect to WebSocket and fetch real-time updates
+def fetch_real_time_updates(exchange):
+    try:
+        ws = create_connection(exchange['ws_url'])
+        ws.send(json.dumps({"method": "SUBSCRIBE", "params": [f"{PI_COIN_SYMBOL.lower()}usdt@ticker"], "id": 1}))
+        while True:
+            result = ws.recv()
+            print(f"Real-time update from {exchange['name']}: {result}")
+            time.sleep(5)
+    except Exception as e:
+        print(f"Error connecting to WebSocket for {exchange['name']}: {e}")
+
+# Function to check the coin on all exchanges
+def list_all_exchanges():
+    threads = []
+    
+    for exchange in EXCHANGES:
+        # Fetch static data
+        t1 = threading.Thread(target=fetch_coin_data, args=(exchange,))
+        threads.append(t1)
+        
+        # Fetch real-time updates via WebSocket
+        t2 = threading.Thread(target=fetch_real_time_updates, args=(exchange,))
+        threads.append(t2)
+    
+    for t in threads:
+        t.start()
+    
+    for t in threads:
+        t.join()
+
+# Run the program
+if __name__ == "__main__":
+    print(f"Starting to fetch data for {PI_COIN_SYMBOL}")
+    list_all_exchanges()
