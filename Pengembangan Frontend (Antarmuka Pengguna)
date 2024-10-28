@@ -1,0 +1,48 @@
+Install Dependencies
+
+npm install web3
+
+
+React Component untuk UI
+import React, { useState } from "react";
+import Web3 from "web3";
+
+const web3 = new Web3(Web3.givenProvider);
+
+const contractABI = [
+   // ... Masukkan ABI Kontrak Di sini ...
+];
+
+const contractAddress = "0x1234567890abcdef"; // Ganti dengan alamat kontrak Anda
+
+const LendingApp = () => {
+  const [loanId, setLoanId] = useState("");
+  const [amount, setAmount] = useState("");
+  const [interestRate, setInterestRate] = useState("");
+  const [dueDate, setDueDate] = useState("");
+  const [borrower, setBorrower] = useState("");
+
+  const contract = new web3.eth.Contract(contractABI, contractAddress);
+
+  const createLoan = async () => {
+    const accounts = await web3.eth.getAccounts();
+    await contract.methods.createLoan(borrower, web3.utils.toWei(amount, 'ether'), interestRate, dueDate)
+      .send({ from: accounts[0], value: web3.utils.toWei(amount, 'ether') });
+  };
+
+  return (
+    <div>
+      <h1>Lending and Borrowing DApp</h1>
+      <div>
+        <h2>Create Loan</h2>
+        <input type="text" placeholder="Borrower Address" onChange={(e) => setBorrower(e.target.value)} />
+        <input type="text" placeholder="Amount in ETH" onChange={(e) => setAmount(e.target.value)} />
+        <input type="text" placeholder="Interest Rate (%)" onChange={(e) => setInterestRate(e.target.value)} />
+        <input type="text" placeholder="Due Date (Timestamp)" onChange={(e) => setDueDate(e.target.value)} />
+        <button onClick={createLoan}>Create Loan</button>
+      </div>
+    </div>
+  );
+};
+
+export default LendingApp;
