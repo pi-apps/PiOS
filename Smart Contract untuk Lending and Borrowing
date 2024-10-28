@@ -1,0 +1,55 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract LendingBorrowing {
+    struct Loan {
+        uint256 amount;
+        uint256 interestRate;
+        uint256 dueDate;
+        address lender;
+        address borrower;
+        bool repaid;
+    }
+
+    mapping(uint256 => Loan) public loans;
+    uint256 public loanCounter = 0;
+
+    event LoanCreated(uint256 loanId, address indexed lender, address indexed borrower, uint256 amount, uint256 interestRate, uint256 dueDate);
+    event LoanRepaid(uint256 loanId, address indexed borrower, uint256 amount);
+
+    function createLoan(address _borrower, uint256 _amount, uint256 _interestRate, uint256 _dueDate) public payable {
+        require(msg.value == _amount, "Lender must deposit the correct amount");
+
+        loanCounter++;
+        loans[loanCounter] = Loan({
+            amount: _amount,
+            interestRate: _interestRate,
+            dueDate: _dueDate,
+            lender: msg.sender,
+            borrower: _borrower,
+            repaid: false
+        });
+
+        emit LoanCreated(loanCounter, msg.sender, _borrower, _amount, _interestRate, _dueDate);
+    }
+
+    function repayLoan(uint256 _loanId) public payable {
+        Loan storage loan = loans[_loanId];
+        require(msg.sender == loan.borrower, "Only the borrower can repay the loan");
+        require(!loan.repaid, "Loan already repaid");
+        require(block.timestamp <= loan.dueDate, "Loan is overdue");
+
+        uint256 repaymentAmount = loan.amount + (loan.amount * loan.interestRate / 100);
+        require(msg.value == repaymentAmount, "Incorrect repayment amount");
+
+        loan.repaid = true;
+        payable(loan.lender).transfer(msg.value);
+
+        emit LoanRepaid(_loanId, msg.sender, msg.value);
+    }
+
+    function getLoanDetails(uint256 _loanId) public view returns (uint256, uint256, uint256, address, address, bool) {
+        Loan memory loan = loans[_loanId];
+        return (loan.amount, loan.interestRate, loan.dueDate, loan.lender, loan.borrower, loan.repaid);
+    }
+}
