@@ -80,8 +80,4 @@ To add your project to the list follow the instructions [here](/README.md)
 | Showroom Indonesia|Pi Showroom an online car buying platform and paid using Pi|Marketplace|PHP - Laravel|[Pi Showroom](https://github.com/Pisshowroom/showroom)|pi://brainstorm.pi/project/63c74abd61aa513b83e4a4b9|[Testnet](https://test.pisshowroom.co)|[Mainnet](https://pisshowroom.co)
 | PyNook | PyNooK is a global barter mall. Through positioning, it can help pi pioneers quickly find merchants who accept pi payment, so as to achieve online and offline fast barter | Consumer utilities / Business tools | Javascript/NextJS/Vue | [PyNook](https://github.com/picnty/pynook)  | [pi://brainstorm.pi/project/65dcae3e6d7f340033b33af4](pi://brainstorm.pi/project/65dcae3e6d7f340033b33af4) | [https://pynook.com](https://pynook.com) | [PyNook Testnet](https://pynook.com) |
 Bliyyan | Bliyyan is a buyer and sales interface platform in Blockchain ecosystem transaction's | Consumer utilities / Business tools | JavaScript / PHP | [Bliyyan]
-(https://github.com/Bliyyan/Bliyyan)
-[https://brainstorm.pinet.com/project/6728dd8d3dfb6c0049916129]
-(https://brainstorm.pinet.com/project/6728dd8d3dfb6c0049916129)
-[https://bliyyan.com]
-(https://bliyyan.com) | [Bliyyan Testnet](https://testnet.bliyyan.com) |
+(https://github.com/Bliyyan/Bliyyan)|[https://brainstorm.pinet.com/project/6728dd8d3dfb6c0049916129]|(https://brainstorm.pinet.com/project/6728dd8d3dfb6c0049916129)|[https://bliyyan.com]|(https://bliyyan.com)|[Bliyyan Testnet](https://testnet.bliyyan.com) |
