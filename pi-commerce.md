@@ -34,7 +34,9 @@ Copy the format below, add it to the bottom of the table, and update it with you
 | EasyGoods | A commerce project for pi commerce hackathon | Javascript/NextJS, FireStore | [EasyGoods](https://github.com/0205miss/EasyGoods) | [EasyGoods](https://easygoods5604.pinet.com) |
 | Map Of Pi | Map Of Pi is a mobile application developed to help Pi community members easily locate local and global businesses that accept Pi as payment. This project was initiated as part of the Pi eCommerce Hackathon with the goal of facilitating Pi transactions and connecting businesses with the Pi community. | Typescript/NextJS, Node.js/Express, MongoDB | [map-of-pi-docker](https://github.com/map-of-pi/map-of-pi-docker) | [Map Of Pi](https://mapofpi.pinet.com) |
 | PyNook | PyNooK is a global barter mall. Through positioning, it can help pi pioneers quickly find merchants who accept pi payment, so as to achieve online and offline fast barter | Javascript/NextJS | [pynook](https://github.com/picnty/pynook) | [PyNook](https://pynook7269.pinet.com) |
+ | BLJ For Pi| BLJ For Pi is a platform barter product accepted pi coin payments. BLJ For platform can sales and buying product| Javascript/NextJS | [BLJ For Pi](https://github.com/berkahlestarijambi/berkahlestarijambi) | [BLJ for Pi](https://blj2841.pinet.com) |
   
+ 
 #
 
 ### For Projects under Active Development
