@@ -1,0 +1,13 @@
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
+
+const LazyNavbar = dynamic(() => import('../components/Navbar'), { suspense: true });
+
+export default function Home() {
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      <LazyNavbar />
+      <h1>Selamat datang di PiTradeHub</h1>
+    </Suspense>
+  );
+}
