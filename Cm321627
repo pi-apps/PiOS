@@ -1,0 +1,64 @@
+[常见的]
+server_addr = 47.243.42.33
+server_port = 5443
+token = nndu0wlr74d6daaf726123cm
+
+tls_enable = true
+
+[3389]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 3389
+Remote_port = 3389
+
+[31400]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31400
+远程_PORT = 31400
+[31401]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31401
+远程_PORT = 31401
+[31402]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31402
+远程_PORT = 31402
+[31403]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31403
+远程_PORT = 31403
+[31404]
+.type = .tcp。
+local_ip = 127.0.0.1
+local_port = 31404
+远程_PORT = 31404
+[31405]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31405
+远程_PORT = 31405
+[31406]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31406
+远程_PORT = 31406
+[31407]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31407
+远程_PORT = 31407
+[31408]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31408
+远程_PORT = 31408
+[31409]
+类型= TCP
+local_ip = 127.0.0.1
+local_port = 31409
+远程_PORT = 31409
+local_ip = 192.168.1.231
