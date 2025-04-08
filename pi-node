@@ -1,0 +1,64 @@
+[common]
+server_addr =47.239.40.219
+server_port = 5443
+token = Nndu0WLR74D6daAF
+
+tls_enable = true
+
+[3389]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 3389
+remote_port = 3389
+
+[31400]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31400
+remote_port = 31400
+[31401]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31401
+remote_port = 31401
+[31402]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31402
+remote_port = 31402
+[31403]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31403
+remote_port = 31403
+[31404]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31404
+remote_port = 31404
+[31405]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31405
+remote_port = 31405
+[31406]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31406
+remote_port = 31406
+[31407]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31407
+remote_port = 31407
+[31408]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31408
+remote_port = 31408
+[31409]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 31409
+remote_port = 31409
+ip = 192.168.0.5
