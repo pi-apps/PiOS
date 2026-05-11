@@ -26,8 +26,8 @@ To add your project to the list follow the instructions [here](/README.md)
 
 ### Adding a new row to the table
 **To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**
-| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |
-
+| Demo | This application showcases the authentication and payment functionalities of the Pi SDK. | Consumer Utility | , MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
+| Pi Commerce Apps | Mock Ups and Material for the Pi Commerce Hackathon in 2024 | Social Media | Figma | [pi-commerce-app](https://github.com/pi-apps/pi-commerce-app)|  | | |
 
 ### Potential App Categories
 - Social Media
@@ -84,3 +84,5 @@ To add your project to the list follow the instructions [here](/README.md)
 | BLIYYAN | A marketplace that was founded at the urging of pioneers who needed a means to exchange pi currency for the goods and services they needed.We are ready to serve and provide all pioneer needs, we will immediately present all product proposals on our market.Together we fight for the success of the PiNet project. | Marketplace | PHP/Laravel, JS/Vue, DB/Mysql | [bliyyaan](https://github.com/bliyyaan/bliyyaan) | [https://brainstorm.pinet.com/project/67a468399b2522003c31de97](https://brainstorm.pinet.com/project/67a468399b2522003c31de97) | [BLIYYAAN TESTNET](https://test.bliyyaan.com) | [BLIYYAN MAINNET](https://bliyyaan.com) |
 | BLJ FOR PI| Berkah Lestari Jambi (BLJ FOR PI) is a application used to conduct buying and selling transactions using Pi as the means of payment | Marketplace | ReactJS - Laravel, MYSQL| [BLJ FOR PI](https://github.com/Berkahlestarijambi/Berkahlestarijambi)| [https://brainstorm.pinet.com/project/671ccd37ed1252004d30e295](https://brainstorm.pinet.com/project/671ccd37ed1252004d30e295)|[Testnet](https://testnet.bljambi.com)|[Mainnet](https://mainet.bljambi.com) | 
 | Orbit | Post once, share everywhere, track growth, and get AI insights. Your all-in-one social management tool. | Business tool | JS/React | [Orbit](https://github.com/pi-apps/orbit) | https://brainstorm.pinet.com/project/68c9638fd8dec8dc8f3bce00 | [Testnet](https://orbit-test.web.app) | [Mainnet](https://tryorbit.web.app) |
+|FODUBU,TRACO,SETRA| Fodubu Global Powering Trade;Growth with Pi is an Utility Organisation Application and Multisector Company that working in 3 Dapps all in one used to conduct buying and selling transactions using Pi as the means of payment | Marketplace | ReactJS/vite,pijavascript/sdkjs,Pi-nodejs/express ,Atlas| [FODUBU-UNIFIED-API](https://github.com/FODUBU/fodubu-api)||(https://brainstorm.pinet.com/project/68b6d0be045f663593b54b34)| |when available||when Available|
+  
