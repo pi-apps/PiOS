@@ -34,7 +34,7 @@ Copy the format below, add it to the bottom of the table, and update it with you
 | EasyGoods | A commerce project for pi commerce hackathon | Javascript/NextJS, FireStore | [EasyGoods](https://github.com/0205miss/EasyGoods) | [EasyGoods](https://easygoods5604.pinet.com) |
 | Map of Pi | Map of Pi is a mobile application developed to help Pi community members easily locate local and global businesses that accept Pi as payment. This project was initiated as part of the Pi eCommerce Hackathon with the goal of facilitating Pi transactions and connecting businesses with the Pi community. | Typescript/NextJS, Node.js/Express, MongoDB | [map-of-pi](https://github.com/pi-apps/map-of-pi) | [Map of Pi](https://mapofpi.pinet.com) |
 | PyNook | PyNooK is a global barter mall. Through positioning, it can help pi pioneers quickly find merchants who accept pi payment, so as to achieve online and offline fast barter | Javascript/NextJS | [pynook](https://github.com/picnty/pynook) | [PyNook](https://pynook7269.pinet.com) |
-  
+| LUMENSIA SMART TECHNOLOGIE | LUME RAB PRO — Asisten digital perencanaan pembangunan rumah, estimasi RAB (Rencana Anggaran Biaya) sesuai standar SNI/AHSP PUPR Indonesia, dengan export PDF/Excel dan integrasi Pi Network payment SDK | HTML, JavaScript | [lume-rab-pro](https://github.com/Tofel-cyber/lume-rab-pro) | lume-rab-pro.vercel.app |  
 #
 
 ### For Projects under Active Development
