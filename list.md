@@ -18,6 +18,7 @@ To add your project to the list follow the instructions [here](/README.md)
 | Pi SDK for Go | Go version of the Pi SDK for making A2U and U2A Payments | SDK | Go        |      [pi-go](https://github.com/pi-apps/pi-go)        |                           |
 | Pi SDK for PHP| App to User payment for Pi in PHP language | SDK | PHP        | [pi-php](https://github.com/pi-apps/pi-php/tree/main)            | [pi-brainstorm](https://brainstorm.pi/project/63cd02acea109c003afe2c2a)                         |
 | Pi SDK for Rust | Secure App-to-User (A2U) integration for Pi Network in Rust. Supports OAuth verification, payment creation, approval, and cancellation — a full backend SDK for Rust developers. | SDK | Rust        |    [pi-rust](https://github.com/pi-apps/pi-rust)       |                        |
+| PEP Transparency Toolkit | Zero-dependency Ed25519 engagement-proof library (PEP/1): signed dApp milestone reporting with replay protection and KYC/Mainnet eligibility checks; dynamic p_floor & x·y=k pool-health mathematics; escrow-revocation attestations; Transparency Dashboard snapshot engine | SDK | JavaScript / Node.js 18+ (ESM, zero dependencies) | TBD | PEP Transparency Toolkit |
 
 
 <br/>
