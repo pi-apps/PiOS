@@ -1,0 +1,14 @@
+[package]
+name = "bazaar-dao-mesh"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = "20.0.0" # Current standard for Open Mainnet 2026
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
